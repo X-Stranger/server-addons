@@ -1,5 +1,6 @@
 microk8s-addons:
-  description: "List of all addons included in Microk8s"
+  description: "List of custom server addons included in Microk8s"
+  addons:
     - name: "cilium"
       description: "SDN, fast with full network policy"
       version: "1.15.0"
