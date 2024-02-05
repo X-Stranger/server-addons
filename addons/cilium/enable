@@ -108,7 +108,7 @@ else
       --set daemon.runPath="/var/snap/microk8s/current/var/run/cilium" \
       --set operator.replicas=1 \
       --set keepDeprecatedLabels=true \
-      --set ipam.operator.clusterPoolIPv4PodCIDR="${IPv4_CLUSTER_CIDR}" \
+      --set ipam.operator.clusterPoolIPv4PodCIDRList="${IPv4_CLUSTER_CIDR}" \
       --set nodePort.enabled=true
   )
 
